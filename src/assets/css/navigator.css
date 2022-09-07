@@ -1,0 +1,1030 @@
+.WrapperInfoWindow .InfoWindow {
+  background: #fff;
+  position: fixed;
+  top: 13vh;
+  height: 87vh;
+  left: 0;
+  max-width: 20rem;
+  transition: all 0.5s ease;
+  border-radius: 10px 10px 10px 10px;
+  text-align: left;
+}
+
+.WrapperInfoWindow .InfoWindow {
+  left: -552px;
+}
+
+.active .WrapperInfoWindow .InfoWindow {
+  left: 0px;
+}
+
+.infowin {
+  background-color: #0b4281;
+  color: #fff;
+}
+
+.infowin_desktop {
+  display: block;
+}
+
+.infowin_mobile {
+  display: none;
+}
+
+.txt {
+  color: #fff;
+  margin-bottom: -2px;
+}
+
+.txt_small {
+  color: #fff;
+  font-size: 12px;
+}
+
+.btn_moredetail {
+  background-color: #d8d8d8;
+  color: #fff;
+  margin-top: 58px;
+}
+
+.overlayLeft {
+  top: 16vh;
+  left: 150vh;
+  z-index: 1;
+  position: absolute;
+}
+
+.overlayRight {
+  top: 16vh;
+  right: 65px;
+  width: 240px;
+  z-index: 1;
+  position: absolute;
+}
+
+.overlayBottomRight {
+  top: 24.5vh;
+  right: 65px;
+  z-index: 1;
+  position: absolute;
+  width: 240px;
+}
+
+
+.uper_li {
+  background-color: #EDECFF;
+  padding: 5px 0px 0px 6px;
+}
+
+.bot_li {
+  padding: 5px 0px 0px 6px;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.centerOut {
+  display: inline-block;
+  position: relative;
+  top: 13px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.centerOut-button {
+  display: inline-block;
+  border-radius: 4px;
+  width: 38px;
+  height: 38px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #ffffff;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.dd-button {
+  width: 120px;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 30px 10px 20px;
+  background-color: #ffffff;
+  margin-left: 0px;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.dd-button:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+}
+
+.dd-button:hover {
+  background-color: #eeeeee;
+}
+
+.dd-input {
+  display: none;
+}
+
+.dd-menu {
+  width: 120px;
+  position: absolute;
+  top: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 2px 0 0 0;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  list-style-type: none;
+}
+
+.dd-input+.dd-menu {
+  display: none;
+}
+
+.dd-input:checked+.dd-menu {
+  display: block;
+}
+
+.dd-menu li {
+  margin-left: -25px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-menu li:hover {
+  background-color: #f6f6f6;
+}
+
+.dd-menu li.divider {
+  padding: 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* Small Mobile Devices */
+@media (min-width: 280px) and (max-width: 319px) {
+  .WrapperInfoWindow .InfoWindow {
+    background: #fff;
+    position: fixed;
+    top: 26rem;
+    height: calc(100vh - 26rem);
+    left: 0;
+    width: 100vw;
+    transition: all 0.5s ease;
+    border-radius: 10px 10px 10px 10px;
+    text-align: left;
+    z-index: 2;
+  }
+
+  .WrapperInfoWindow .InfoWindow {
+    left: -552px;
+  }
+
+  .active .WrapperInfoWindow .InfoWindow {
+    left: 0px;
+  }
+
+  .infowin {
+    background-color: #0b4281;
+    color: #fff;
+  }
+
+  .infowin_desktop {
+    display: none;
+  }
+
+  .infowin_mobile {
+    display: block;
+  }
+
+  .overlayRight {
+    top: 9rem;
+    right: 0.6rem;
+    z-index: 1;
+    position: absolute;
+    width: 6rem;
+  }
+
+  .overlayBottomRight {
+    right: 0rem;
+    top: 12rem;
+    z-index: 1;
+    position: absolute;
+    height: 1rem;
+  }
+
+  .uper_li {
+    background-color: #EDECFF;
+    padding: 5px 0px 0px 6px;
+  }
+
+  .bot_li {
+    padding: 5px 0px 0px 6px;
+  }
+
+  .dropdown {
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    top: 10px;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 8px;
+  }
+
+  .dd-button {
+    width: 75px;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 10px 10px 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+    white-space: nowrap;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .dd-button:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+  }
+
+  .dd-button:hover {
+    background-color: #eeeeee;
+  }
+
+  .dd-input {
+    display: none;
+  }
+
+  .dd-menu {
+    width: 75px;
+    position: absolute;
+    top: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    list-style-type: none;
+  }
+
+  .dd-input+.dd-menu {
+    display: none;
+  }
+
+  .dd-input:checked+.dd-menu {
+    display: block;
+  }
+
+  .dd-menu li {
+    margin-left: -25px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .dd-menu li:hover {
+    background-color: #f6f6f6;
+  }
+
+  .dd-menu li.divider {
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+  }
+}
+
+/* Mobile Devices */
+@media (min-width: 320px) and (max-width: 480px) {
+  .WrapperInfoWindow .InfoWindow {
+    background: #fff;
+    position: fixed;
+    top: 26rem;
+    height: calc(100vh - 26rem);
+    left: 0;
+    width: 100vw;
+    transition: all 0.5s ease;
+    border-radius: 10px 10px 10px 10px;
+    text-align: left;
+    z-index: 2;
+  }
+
+  .WrapperInfoWindow .InfoWindow {
+    left: -552px;
+  }
+
+  .active .WrapperInfoWindow .InfoWindow {
+    left: 0px;
+  }
+
+  .infowin {
+    background-color: #0b4281;
+    color: #fff;
+  }
+
+  .infowin_desktop {
+    display: none;
+  }
+
+  .infowin_mobile {
+    display: block;
+  }
+
+  .overlayRight {
+    top: 5.6rem;
+    right: 3.5rem;
+    z-index: 1;
+    position: absolute;
+    width: 30%;
+    height: 40px;
+  }
+
+  .overlayBottomRight {
+    right: 0rem;
+    top: 8.5rem;
+    z-index: 1;
+    position: absolute;
+  }
+
+
+  .uper_li {
+    background-color: #EDECFF;
+    padding: 5px 0px 0px 6px;
+  }
+
+  .bot_li {
+    padding: 5px 0px 0px 6px;
+  }
+
+  .dropdown {
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    top: 10px;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 8px;
+  }
+
+  .dd-button {
+    width: 75px;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 10px 10px 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+    white-space: nowrap;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .dd-button:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+  }
+
+  .dd-button:hover {
+    background-color: #eeeeee;
+  }
+
+  .dd-input {
+    display: none;
+  }
+
+  .dd-menu {
+    width: 75px;
+    position: absolute;
+    top: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    list-style-type: none;
+  }
+
+  .dd-input+.dd-menu {
+    display: none;
+  }
+
+  .dd-input:checked+.dd-menu {
+    display: block;
+  }
+
+  .dd-menu li {
+    margin-left: -25px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .dd-menu li:hover {
+    background-color: #f6f6f6;
+  }
+
+  .dd-menu li.divider {
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+  }
+}
+
+/* iPads, Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  .WrapperInfoWindow .InfoWindow {
+    background: #fff;
+    position: fixed;
+    top: 5rem;
+    height: calc(100vh - 5rem);
+    left: 0;
+    width: 53%;
+    transition: all 0.5s ease;
+    border-radius: 10px 10px 10px 10px;
+    text-align: left;
+    z-index: 2;
+  }
+
+  .WrapperInfoWindow .InfoWindow {
+    left: -552px;
+  }
+
+  .active .WrapperInfoWindow .InfoWindow {
+    left: 0px;
+  }
+
+  .infowin {
+    background-color: #0b4281;
+    color: #fff;
+  }
+
+  .infowin_desktop {
+    display: block;
+  }
+
+  .infowin_mobile {
+    display: none;
+  }
+
+  .overlayRight {
+    top: 5.6rem;
+    right: 4rem;
+    z-index: 1;
+    position: absolute;
+    width: 30%;
+    height: 40px;
+  }
+
+  .overlayBottomRight {
+    right: 8%;
+    top: 8.5rem;
+    z-index: 1;
+    position: absolute;
+  }
+
+  .uper_li {
+    background-color: #EDECFF;
+    padding: 5px 0px 0px 6px;
+  }
+
+  .bot_li {
+    padding: 5px 0px 0px 6px;
+  }
+
+  .dropdown {
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    top: 10px;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 8px;
+  }
+
+  .dd-button {
+    width: 75px;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 10px 10px 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+    white-space: nowrap;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .dd-button:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+  }
+
+  .dd-button:hover {
+    background-color: #eeeeee;
+  }
+
+  .dd-input {
+    display: none;
+  }
+
+  .dd-menu {
+    width: 75px;
+    position: absolute;
+    top: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    list-style-type: none;
+  }
+
+  .dd-input+.dd-menu {
+    display: none;
+  }
+
+  .dd-input:checked+.dd-menu {
+    display: block;
+  }
+
+  .dd-menu li {
+    margin-left: -25px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .dd-menu li:hover {
+    background-color: #f6f6f6;
+  }
+
+  .dd-menu li.divider {
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+  }
+}
+
+/* Small screens, laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .WrapperInfoWindow .InfoWindow {
+    background: #fff;
+    position: fixed;
+    top: 5rem;
+    height: calc(100vh - 5rem);
+    left: 0;
+    width: 30%;
+    transition: all 0.5s ease;
+    border-radius: 10px 10px 10px 10px;
+    text-align: left;
+  }
+
+  .WrapperInfoWindow .InfoWindow {
+    left: -552px;
+  }
+
+  .active .WrapperInfoWindow .InfoWindow {
+    left: 0px;
+  }
+
+  .infowin {
+    background-color: #0b4281;
+    color: #fff;
+  }
+
+  .infowin_desktop {
+    display: block;
+  }
+
+  .infowin_mobile {
+    display: none;
+  }
+
+  .overlayRight {
+    top: 5.6rem;
+    right: 4rem;
+    z-index: 1;
+    position: absolute;
+    width: 30%;
+    height: 40px;
+  }
+
+  .overlayBottomRight {
+    right: 4rem;
+    top: 8.5rem;
+    z-index: 1;
+    position: absolute;
+    width: 30%;
+  }
+
+  .uper_li {
+    background-color: #EDECFF;
+    padding: 5px 0px 0px 6px;
+  }
+
+  .bot_li {
+    padding: 5px 0px 0px 6px;
+  }
+
+
+
+  .dropdown {
+    display: inline-block;
+    position: relative;
+    top: 13px;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .dd-button {
+    width: 120px;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 30px 10px 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    white-space: nowrap;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .dd-button:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+  }
+
+  .dd-button:hover {
+    background-color: #eeeeee;
+  }
+
+  .dd-input {
+    display: none;
+  }
+
+  /* .dd-menu {
+    width: 120px;
+    position: absolute;
+    top: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    list-style-type: none;
+  } */
+
+  .dd-input+.dd-menu {
+    display: none;
+  }
+
+  .dd-input:checked+.dd-menu {
+    display: block;
+  }
+
+  .dd-menu li {
+    margin-left: -24px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .dd-menu li.uper_li:hover {
+    background-color: #cacaca;
+  }
+
+  .dd-menu li.divider {
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+  }
+}
+
+/* Desktops, large screens */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .WrapperInfoWindow .InfoWindow {
+    background: #fff;
+    position: fixed;
+    top: 6rem;
+    height: calc(100vh - 6rem);
+    left: 0;
+    width: 22%;
+    transition: all 0.5s ease;
+    border-radius: 10px 10px 10px 10px;
+    text-align: left;
+  }
+
+  .WrapperInfoWindow .InfoWindow {
+    left: -552px;
+  }
+
+  .active .WrapperInfoWindow .InfoWindow {
+    left: 0px;
+  }
+
+  .infowin {
+    background-color: #0b4281;
+    color: #fff;
+  }
+
+  .infowin_desktop {
+    display: block;
+  }
+
+  .infowin_mobile {
+    display: none;
+  }
+
+  .overlayRight {
+    top: 6.5rem;
+    right: 3.9rem;
+    z-index: 1;
+    position: absolute;
+    width: 18rem;
+    height: 40px;
+  }
+
+  .overlayBottomRight {
+    right: 3.9rem;
+    width: 18rem;
+    top: 9.5rem;
+    z-index: 1;
+    position: absolute;
+  }
+
+  .uper_li {
+    background-color: #EDECFF;
+    padding: 5px 0px 0px 6px;
+  }
+
+  .bot_li {
+    padding: 5px 0px 0px 6px;
+  }
+
+
+
+  .dropdown {
+    display: inline-block;
+    position: relative;
+    top: 13px;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .dd-button {
+    width: 120px;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 30px 10px 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    white-space: nowrap;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .dd-button:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+  }
+
+  .dd-button:hover {
+    background-color: #eeeeee;
+  }
+
+  .dd-input {
+    display: none;
+  }
+
+  /* .dd-menu {
+    width: 120px;
+    position: absolute;
+    top: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    list-style-type: none;
+  } */
+
+  .dd-input+.dd-menu {
+    display: none;
+  }
+
+  .dd-input:checked+.dd-menu {
+    display: block;
+  }
+
+  .dd-menu li {
+    margin-left: -24px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .dd-menu li.uper_li:hover {
+    background-color: #cacaca;
+  }
+
+  .dd-menu li.divider {
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+  }
+}
+
+/* Extra large screens / TV */
+@media screen and (min-width: 1201px) {
+  .WrapperInfoWindow .InfoWindow {
+    background: #fff;
+    position: fixed;
+    top: 6rem;
+    height: calc(100vh - 6rem);
+    left: 0;
+    width: 20%;
+    transition: all 0.5s ease;
+    border-radius: 10px 10px 10px 10px;
+    text-align: left;
+  }
+
+  .WrapperInfoWindow .InfoWindow {
+    left: -552px;
+  }
+
+  .active .WrapperInfoWindow .InfoWindow {
+    left: 0px;
+  }
+
+  .infowin {
+    background-color: #0b4281;
+    color: #fff;
+  }
+
+  .infowin_desktop {
+    display: block;
+  }
+
+  .infowin_mobile {
+    display: none;
+  }
+
+  .overlayRight {
+    top: 6.5rem;
+    right: 3.9rem;
+    z-index: 1;
+    position: absolute;
+    width: 18rem;
+    height: 40px;
+  }
+
+  .overlayBottomRight {
+    right: -3.3rem;
+    top: 9.5rem;
+    right: 3.9rem;
+    width: 18rem;
+    z-index: 1;
+    position: absolute;
+  }
+
+  .uper_li {
+    background-color: #EDECFF;
+    padding: 5px 0px 0px 6px;
+  }
+
+  .bot_li {
+    padding: 5px 0px 0px 6px;
+  }
+
+
+
+  .dropdown {
+    display: inline-block;
+    position: relative;
+    top: 13px;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .dd-button {
+    width: 120px;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 30px 10px 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    white-space: nowrap;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .dd-button:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+  }
+
+  .dd-button:hover {
+    background-color: #eeeeee;
+  }
+
+  .dd-input {
+    display: none;
+  }
+
+  /* .dd-menu {
+    width: 120px;
+    position: absolute;
+    top: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    list-style-type: none;
+  } */
+
+  .dd-input+.dd-menu {
+    display: none;
+  }
+
+  .dd-input:checked+.dd-menu {
+    display: block;
+  }
+
+  .dd-menu li {
+    margin-left: -24px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .dd-menu li.uper_li:hover {
+    background-color: #cacaca;
+  }
+
+  .dd-menu li.divider {
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+  }
+}
+
+.v-application--wrap {
+  min-height: fit-content;
+}
+
+.markerLabel {
+  /* 1 pixel black shadow to left, top, right and bottom */
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  /* font-size: 10px; */
+  font-weight: bold;
+  font-family: sans;
+  margin-top: 3em;
+  /* background-color: #fff; */
+  /* background-color: rgba(255, 255, 255, 0.4); */
+  /* color: yellow; */
+}

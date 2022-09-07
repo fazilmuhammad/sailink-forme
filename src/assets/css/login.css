@@ -1,0 +1,60 @@
+.button_log {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.button_login {
+    color: #fff;
+}
+
+.logo-login {
+    width: 250px;
+    margin-left: 145px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 280px) {
+    .login_container {
+        margin-top: 5.5rem;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 319px) {
+    .login_container {
+        margin-top: 5.5rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .login_container {
+        margin-top: 5rem;
+    }
+}
+
+/* iPads, Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .login_container {
+        margin-top: 5rem;
+    }
+}
+
+/* Small screens, laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .login_container {
+        margin-top: 9rem;
+    }
+}
+
+/* Desktops, large screens */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .login_container {
+        margin-top: 9rem;
+    }
+}
+
+/* Extra large screens / TV */
+@media screen and (min-width: 1201px) {
+    .login_container {
+        margin-top: 9rem;
+    }
+}

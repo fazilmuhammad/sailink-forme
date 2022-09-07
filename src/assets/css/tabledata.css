@@ -1,0 +1,472 @@
+th{
+    background-color: #b8cce2;
+    color: #fff;
+  }
+  
+  th .text{
+    color: #fff;
+  }
+  
+  td{
+    text-align: left;
+    
+  }
+
+ 
+  
+  .grouptxt{
+    width: 80px;
+  }
+  
+  .container{
+      margin-top: 90px;
+  }
+  
+  /*Btn primer*/
+  .btnprimer {
+    background-color: #bacadb;
+    border-radius: 3px;
+    border: 1px solid #0B4281;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #0B4281;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+  
+  .btnprimer:hover,
+  .btnprimer:focus {
+    background-color: #bacadb;
+    color: #0B4281;
+  }
+  
+  .btnprimer:focus {
+    box-shadow: 0 0 0 4px rgba(4, 59, 104, 0.15);
+  }
+  
+  .btnprimer:active {
+    background-color: #bacadb;
+    box-shadow: none;
+    color: #597697;
+  }
+  
+  
+  
+  
+  /* btn secondary */
+  .btnsecond {
+    background-color: #e1ecf4;
+    border-radius: 3px;
+    border: 1px solid #7aa7c7;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #39739d;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+    
+  }
+  
+  .btnsecond:hover,
+  .btnsecond:focus {
+    background-color: #b3d3ea;
+    color: #2c5777;
+  }
+  
+  .btnsecond:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  }
+  
+  .btnsecond:active {
+    background-color: #a0c7e4;
+    box-shadow: none;
+    color: #2c5777;
+  }
+  
+
+
+
+
+
+  
+  .btnping {
+    align-items: center;
+    appearance: none;
+    background-color: #F49223;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    height: 30px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 11px;
+  }
+  
+  .btnping:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  }
+  
+  .btnping:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #af6715 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .btnping:active {
+    box-shadow: #F49223 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+
+
+  .btnpasif {
+    background-color: #d3dadf;
+    border-radius: 3px;
+    border: 1px solid #7c858b;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #82878a;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+  
+  .btnpasif:hover,
+  .btnpasif:focus {
+    background-color: #d3dadf;
+    color: #82878a;
+  }
+  
+  .btnpasif:focus {
+    box-shadow: 0 0 0 4px rgba(196, 199, 201, 0.15);
+  }
+  
+  .btnpasif:active {
+    background-color: #d3dadf;
+    box-shadow: none;
+    color: #82878a;
+  }
+  
+  
+  
+
+  
+  .btnnumber {
+    background-color: #d3dadf;
+    border-radius: 3px;
+    border: 1px solid #7c858b;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #82878a;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    padding: 4px;
+    outline: none;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+  
+  .btnnumber:hover,
+  .btnnumber:focus {
+    background-color: #d3dadf;
+    color: #82878a;
+  }
+  
+  .btnnumber:focus {
+    box-shadow: 0 0 0 4px rgba(196, 199, 201, 0.15);
+  }
+  
+  .btnnumber:active {
+    background-color: #d3dadf;
+    box-shadow: none;
+    color: #82878a;
+  }
+
+
+
+  .btnnumberchild {
+    background-color: #b7c9dd;
+    border-radius: 3px;
+    border: 1px solid #82878a;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #82878a;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    position: relative;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+  
+  .btnnumberchild:hover,
+  .btnnumberchild:focus {
+    background-color: #b7c9dd;
+    color: #82878a;
+  }
+  
+  .btnnumberchild:focus {
+    box-shadow: 0 0 0 4px rgba(196, 199, 201, 0.15);
+  }
+  
+  .btnnumberchild:active {
+    background-color: #b7c9dd;
+    box-shadow: none;
+    color: #82878a;
+  }
+
+  .margintab{
+    margin-top: -25px;
+  }
+  
+  .container_table{
+   margin-top: 70px;
+   padding: 5px;
+  }
+
+  .loader-line {
+    width: 450px;
+    height: 3px;
+    position: relative;
+    overflow: hidden;
+    background-color: #5b9be6;
+    margin-left: 12px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.loader-line:before {
+    content: "";
+    position: absolute;
+    left: -50%;
+    height: 3px;
+    width: 90%;
+    background-color: #1154a0;
+    -webkit-animation: lineAnim 1s linear infinite;
+    -moz-animation: lineAnim 1s linear infinite;
+    animation: lineAnim 1s linear infinite;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+@keyframes lineAnim {
+    0% {
+        left: -40%;
+    }
+    50% {
+        left: 20%;
+        width: 80%;
+    }
+    100% {
+        left: 100%;
+        width: 100%;
+    }
+}
+
+
+
+.loader-line-second {
+  width: 200px;
+  height: 3px;
+  position: relative;
+  overflow: hidden;
+  background-color: #3E87CD;
+  margin-left: 12px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.loader-line-second :before {
+  content: "";
+  position: absolute;
+  left: -50%;
+  height: 3px;
+  width: 40%;
+  background-color: #015AAF;
+  -webkit-animation: linesecAnim 1s linear infinite;
+  -moz-animation: linesecAnim 1s linear infinite;
+  animation: linesecAnim 1s linear infinite;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+@keyframes linesecAnim {
+  0% {
+      left: -40%;
+  }
+  50% {
+      left: 20%;
+      width: 80%;
+  }
+  100% {
+      left: 100%;
+      width: 100%;
+  }
+}
+  .dot-pulse {
+    position: relative;
+    left: -9999px;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #acacac;
+    color: #acacac;
+    box-shadow: 9999px 0 0 -5px #acacac;
+    animation: dotPulse 1.5s infinite linear;
+    animation-delay: .25s;
+  }
+  
+  .dot-pulse::before, .dot-pulse::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #acacac;
+    color: #acacac;
+  }
+  
+  .dot-pulse::before {
+    box-shadow: 9984px 0 0 -5px #acacac;
+    animation: dotPulseBefore 1.5s infinite linear;
+    animation-delay: 0s;
+  }
+  
+  .dot-pulse::after {
+    box-shadow: 10014px 0 0 -5px #acacac;
+    animation: dotPulseAfter 1.5s infinite linear;
+    animation-delay: .5s;
+  }
+  
+  @keyframes dotPulseBefore {
+    0% {
+      box-shadow: 9984px 0 0 -5px #acacac;
+    }
+    30% {
+      box-shadow: 9984px 0 0 2px #acacac;
+    }
+    60%,
+    100% {
+      box-shadow: 9984px 0 0 -5px #acacac;
+    }
+  }
+  
+  @keyframes dotPulse {
+    0% {
+      box-shadow: 9999px 0 0 -5px #acacac;
+    }
+    30% {
+      box-shadow: 9999px 0 0 2px #acacac;
+    }
+    60%,
+    100% {
+      box-shadow: 9999px 0 0 -5px #acacac;
+    }
+  }
+  
+  @keyframes dotPulseAfter {
+    0% {
+      box-shadow: 10014px 0 0 -5px #acacac;
+    }
+    30% {
+      box-shadow: 10014px 0 0 2px #acacac;
+    }
+    60%,
+    100% {
+      box-shadow: 10014px 0 0 -5px #acacac;
+    }
+  }
+  
+
+  .container_table{
+    margin-top: 90px;
+    padding: 5px;
+   }
+
+
